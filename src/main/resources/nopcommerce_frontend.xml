@@ -11,35 +11,39 @@
 	</listeners>
 	<test name="nopcommerce.FrontEnd">
 		<parameter name="browserName" value="chrome_ui" />
-		<classes>
-<!-- 			<class name="com.liveguru.frontend.Register_Account" /> -->
-<!-- 			<class name="com.liveguru.frontend.Purchase_Product_Function_FirstTime" /> -->
-<!-- 			<class name="com.liveguru.frontend.Product_Function"> -->
-<!-- 				<methods> -->
-<!-- 					<include name="TC_09_Verify_user_is_able_to_purchase_product"></include> -->
-<!-- 				</methods> -->
-<!-- 			</class> -->
-<!-- 			<class name="com.nopcommerce.frontend.Login_Function"> -->
-<!-- 				<methods> -->
-<!-- 					<include name="TC_06_Register_with_valid_info"></include> -->
-<!-- 				</methods> -->
-<!-- 			</class> -->
-<!-- 			<class name="com.nopcommerce.frontend.Search_AdvanceSearch"> -->
-<!-- 				<methods> -->
-<!-- 					<include name="TC_08_Advance_Search_with_Sub_Catalogies_Right_Manufacturer"></include> -->
-<!-- 					<include name="TC_09_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_In_Range"></include> -->
-<!-- 					<include name="TC_10_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Less_Than_Range"></include> -->
-<!-- 					<include name="TC_11_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Greater_Than_Range"></include> -->
-<!-- 				</methods> -->
-<!-- 			</class> -->
-			<class name="com.nopcommerce.frontend.Order_Function">
-<!-- 				<methods> -->
-<!-- 					<include name="TC_05_Order_And_CheckOut"></include> -->
-<!-- 					<include name="TC_06_Verify_Display_6_product_per_page"></include> -->
-<!-- 					<include name="TC_07_Verify_Display_9_product_per_page"></include> -->
-<!-- 					<include name="TC_11_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Greater_Than_Range"></include> -->
-<!-- 				</methods> -->
-			</class>
-		</classes>
+		<!-- <classes> -->
+		<!-- <class name="com.liveguru.frontend.Register_Account" /> -->
+		<!-- <class name="com.liveguru.frontend.Purchase_Product_Function_FirstTime" /> -->
+		<!-- <class name="com.liveguru.frontend.Product_Function"> -->
+		<!-- <methods> -->
+		<!-- <include name="TC_09_Verify_user_is_able_to_purchase_product"></include> -->
+		<!-- </methods> -->
+		<!-- </class> -->
+		<!-- <class name="com.nopcommerce.frontend.Login_Function"> -->
+		<!-- <methods> -->
+		<!-- <include name="TC_06_Register_with_valid_info"></include> -->
+		<!-- </methods> -->
+		<!-- </class> -->
+		<!-- <class name="com.nopcommerce.frontend.Search_AdvanceSearch"> -->
+		<!-- <methods> -->
+		<!-- <include name="TC_08_Advance_Search_with_Sub_Catalogies_Right_Manufacturer"></include> -->
+		<!-- <include name="TC_09_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_In_Range"></include> -->
+		<!-- <include name="TC_10_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Less_Than_Range"></include> -->
+		<!-- <include name="TC_11_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Greater_Than_Range"></include> -->
+		<!-- </methods> -->
+		<!-- </class> -->
+		<!-- <class name="com.nopcommerce.frontend.Order_Function"> -->
+		<!-- <methods> -->
+		<!-- <include name="TC_05_Order_And_CheckOut"></include> -->
+		<!-- <include name="TC_06_Verify_Display_6_product_per_page"></include> -->
+		<!-- <include name="TC_07_Verify_Display_9_product_per_page"></include> -->
+		<!-- <include name="TC_11_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Greater_Than_Range"></include> -->
+		<!-- </methods> -->
+		<!-- </class> -->
+
+		<!-- </classes> -->
+		<packages>
+			<package name="com.nopcommerce.frontend"></package>
+		</packages>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

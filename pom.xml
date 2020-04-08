@@ -120,7 +120,7 @@
 
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
-						<file>src/main/resources/LiveGuru_Frontend.xml</file>
+						<file>src/main/resources/nopcommerce_frontend.xml</file>
 					</suiteXmlFiles>
 
 				</configuration>

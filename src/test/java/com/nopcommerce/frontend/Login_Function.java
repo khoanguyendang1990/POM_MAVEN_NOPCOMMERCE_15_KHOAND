@@ -21,11 +21,11 @@ public class Login_Function extends BaseTest {
 	WebDriver driver;
 	private HomePO homePO;
 	private LoginPO loginPO;
-	private String email = "khoa.nguyen280590@gmail.com";
+	private String email = Constants.EMAIL_USERNAME;
 	private String invalidEmail = "khoa.nguyen";
 	private String notRegistedEmail = "khoa.nguyen" + randomNumber() + "@gmail.com";
 
-	private String password = "1234aaAA";
+	private String password = Constants.PASSWORD;
 
 	@Test
 	public void TC_01_Login_with_empty_data() {

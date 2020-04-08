@@ -1,157 +1,590 @@
-2020-03-30 22:26:59,250 INFO  com.nopcommerce.frontend.Order_Function - Pre-condition: Login successfully
-2020-03-30 22:27:05,455 INFO  com.nopcommerce.frontend.Order_Function - Pre-condition: VP. Login successfully
-2020-03-30 22:27:05,600 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:05,692 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:05,712 INFO  com.nopcommerce.frontend.Order_Function - ========Start TC_01_Add_Product_To_Cart========
-2020-03-30 22:27:05,713 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Computers > Desktops page
-2020-03-30 22:27:06,674 INFO  com.nopcommerce.frontend.Order_Function - Pre-condition: VP. Desktops Page is opened
-2020-03-30 22:27:06,751 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:06,751 INFO  com.nopcommerce.frontend.Order_Function - Click on Build your own computer
-2020-03-30 22:27:08,107 INFO  com.nopcommerce.frontend.Order_Function - VP. Build your own computer is opened
-2020-03-30 22:27:08,180 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:08,180 INFO  com.nopcommerce.frontend.Order_Function - Select option for computer
-2020-03-30 22:27:08,180 INFO  com.nopcommerce.frontend.Order_Function - Select Processor
-2020-03-30 22:27:08,280 INFO  com.nopcommerce.frontend.Order_Function - Select RAM
-2020-03-30 22:27:08,414 INFO  com.nopcommerce.frontend.Order_Function - Select HDD
-2020-03-30 22:27:08,543 INFO  com.nopcommerce.frontend.Order_Function - Select OS
-2020-03-30 22:27:08,652 INFO  com.nopcommerce.frontend.Order_Function - Select Software
-2020-03-30 22:27:08,963 INFO  com.nopcommerce.frontend.Order_Function - Click button Add to Cart
-2020-03-30 22:27:09,079 INFO  com.nopcommerce.frontend.Order_Function - VP.Show message product has been added to shopping cart successfully
-2020-03-30 22:27:09,680 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:09,911 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify product has been added to shopping cart
-2020-03-30 22:27:10,125 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify quatity product has been added to shopping cart
-2020-03-30 22:27:11,310 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,379 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,473 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,525 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,577 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,639 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,699 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,749 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,836 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:11,921 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:12,000 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:12,679 INFO  com.nopcommerce.frontend.Order_Function - ========End TC_01_Add_Product_To_Cart========
-2020-03-30 22:27:12,690 INFO  com.nopcommerce.frontend.Order_Function - ========Start TC_02_Edit_Product_In_Cart========
-2020-03-30 22:27:12,691 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Cart
-2020-03-30 22:27:14,579 INFO  com.nopcommerce.frontend.Order_Function - Click on Edit Product
-2020-03-30 22:27:15,807 INFO  com.nopcommerce.frontend.Order_Function - VP. Build your own computer is opened
-2020-03-30 22:27:15,892 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:15,892 INFO  com.nopcommerce.frontend.Order_Function - Select option for computer
-2020-03-30 22:27:15,892 INFO  com.nopcommerce.frontend.Order_Function - Select Processor
-2020-03-30 22:27:16,024 INFO  com.nopcommerce.frontend.Order_Function - Select RAM
-2020-03-30 22:27:16,163 INFO  com.nopcommerce.frontend.Order_Function - Select HDD
-2020-03-30 22:27:16,300 INFO  com.nopcommerce.frontend.Order_Function - Select OS
-2020-03-30 22:27:16,405 INFO  com.nopcommerce.frontend.Order_Function - Select Software
-2020-03-30 22:27:16,704 INFO  com.nopcommerce.frontend.Order_Function - Input quantity
-2020-03-30 22:27:17,074 INFO  com.nopcommerce.frontend.Order_Function - Click to Update
-2020-03-30 22:27:17,241 INFO  com.nopcommerce.frontend.Order_Function - VP.Show message product has been added to shopping cart successfully
-2020-03-30 22:27:18,427 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:18,584 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify product has been updated to shopping cart
-2020-03-30 22:27:18,835 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify quatity product has been updated to shopping cart
-2020-03-30 22:27:20,055 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,131 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,196 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,240 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,306 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,374 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,419 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,463 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,527 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,603 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:20,672 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:21,137 INFO  com.nopcommerce.frontend.Order_Function - ========End TC_02_Edit_Product_In_Cart========
-2020-03-30 22:27:21,142 INFO  com.nopcommerce.frontend.Order_Function - ========Start TC_03_Remove_Product_In_Cart========
-2020-03-30 22:27:21,142 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Cart
-2020-03-30 22:27:22,431 INFO  com.nopcommerce.frontend.Order_Function - Check on checkbox remove Product
-2020-03-30 22:27:22,566 INFO  com.nopcommerce.frontend.Order_Function - Click to Update Shopping Cart
-2020-03-30 22:27:23,249 INFO  com.nopcommerce.frontend.Order_Function - VP. Shopping Cart is empty
-2020-03-30 22:27:23,317 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:23,317 INFO  com.nopcommerce.frontend.Order_Function - VP. Mini Shopping Cart is empty
-2020-03-30 22:27:23,430 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:23,838 INFO  com.nopcommerce.frontend.Order_Function - ========End TC_03_Remove_Product_In_Cart========
-2020-03-30 22:27:23,843 INFO  com.nopcommerce.frontend.Order_Function - ========Start TC_05_Order_And_CheckOut========
-2020-03-30 22:27:23,843 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Computers > Desktops page
-2020-03-30 22:27:25,572 INFO  com.nopcommerce.frontend.Order_Function - VP. Notebooks Page is opened
-2020-03-30 22:27:25,638 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:25,639 INFO  com.nopcommerce.frontend.Order_Function - Click on product: Apple MacBook Pro 13-inch
-2020-03-30 22:27:26,810 INFO  com.nopcommerce.frontend.Order_Function - VP. Apple MacBook Pro 13-inch is opened
-2020-03-30 22:27:26,874 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:26,874 INFO  com.nopcommerce.frontend.Order_Function - Input 2 quantity
-2020-03-30 22:27:26,999 INFO  com.nopcommerce.frontend.Order_Function - Click button Add to Cart
-2020-03-30 22:27:27,094 INFO  com.nopcommerce.frontend.Order_Function - VP.Show message product has been added to shopping cart successfully
-2020-03-30 22:27:27,506 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:27,676 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Cart
-2020-03-30 22:27:30,119 INFO  com.nopcommerce.frontend.Order_Function - Input info before Checkout
-2020-03-30 22:27:30,120 INFO  com.nopcommerce.frontend.Order_Function - Select Gift Wrapping?
-2020-03-30 22:27:30,203 INFO  com.nopcommerce.frontend.Order_Function - Select Country
-2020-03-30 22:27:30,324 INFO  com.nopcommerce.frontend.Order_Function - Input Zip Code
-2020-03-30 22:27:30,499 INFO  com.nopcommerce.frontend.Order_Function - Check on checkbox Accept Term
-2020-03-30 22:27:30,614 INFO  com.nopcommerce.frontend.Order_Function - Click on Checkout Button
-2020-03-30 22:27:32,199 INFO  com.nopcommerce.frontend.Order_Function - Open Checkout Page
-2020-03-30 22:27:32,199 INFO  com.nopcommerce.frontend.Order_Function - VP. Checkout Page is opened
-2020-03-30 22:27:32,258 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:32,258 INFO  com.nopcommerce.frontend.Order_Function - Input Billing Address info
-2020-03-30 22:27:34,798 INFO  com.nopcommerce.frontend.Order_Function - Billing Method Page > Click To Continue
-2020-03-30 22:27:34,913 INFO  com.nopcommerce.frontend.Order_Function - Input Shipping Address info
-2020-03-30 22:27:38,106 INFO  com.nopcommerce.frontend.Order_Function - Shipping Address Page > Click To Continue
-2020-03-30 22:27:38,202 INFO  com.nopcommerce.frontend.Order_Function - Input Shipping Method info
-2020-03-30 22:27:38,741 INFO  com.nopcommerce.frontend.Order_Function - Shipping Method Page > Click To Continue
-2020-03-30 22:27:38,835 INFO  com.nopcommerce.frontend.Order_Function - Input Payment Method
-2020-03-30 22:27:39,327 INFO  com.nopcommerce.frontend.Order_Function - Payment Method Page > Click To Continue
-2020-03-30 22:27:39,418 INFO  com.nopcommerce.frontend.Order_Function - Payment Info Page > Click To Continue
-2020-03-30 22:27:40,084 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Confirm Order
-2020-03-30 22:27:40,084 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Billing Address
-2020-03-30 22:27:40,507 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:40,567 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:40,627 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:40,690 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:40,753 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:40,811 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:40,811 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Shipping Address
-2020-03-30 22:27:40,873 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:40,936 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,003 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,062 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,122 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,184 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,184 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Payment
-2020-03-30 22:27:41,252 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,252 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Shipping
-2020-03-30 22:27:41,314 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,314 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Shopping Cart info
-2020-03-30 22:27:41,374 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,455 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,578 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,579 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Shopping Cart - Total info
-2020-03-30 22:27:41,645 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,723 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,782 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,824 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,885 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:41,885 INFO  com.nopcommerce.frontend.Order_Function - Click to Confirm button
-2020-03-30 22:27:41,986 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify success message display
-2020-03-30 22:27:43,214 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:43,284 INFO  com.nopcommerce.frontend.Order_Function - Order number: 2788
-2020-03-30 22:27:43,285 INFO  com.nopcommerce.frontend.Order_Function - Navigate to My Account > Order. Verify order info
-2020-03-30 22:27:44,449 INFO  com.nopcommerce.frontend.Order_Function - VP. My Account - Orders Page open
-2020-03-30 22:27:44,517 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:44,517 INFO  com.nopcommerce.frontend.Order_Function - VP. Order Number is displayed in Order List
-2020-03-30 22:27:44,555 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:44,555 INFO  com.nopcommerce.frontend.Order_Function - Click To Order Details
-2020-03-30 22:27:45,281 INFO  com.nopcommerce.frontend.Order_Function - VP. Orders Information Page is opened
-2020-03-30 22:27:45,339 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:45,339 INFO  com.nopcommerce.frontend.Order_Function - VP. Order Number is displayed in Order List
-2020-03-30 22:27:45,369 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:45,369 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Product info
-2020-03-30 22:27:45,425 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:45,494 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:45,552 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:45,552 INFO  com.nopcommerce.frontend.Order_Function - VP. Orders Information Page is opened
-2020-03-30 22:27:45,611 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:45,672 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:45,731 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:45,786 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
-2020-03-30 22:27:46,183 INFO  com.nopcommerce.frontend.Order_Function - ========End TC_05_Order_And_CheckOut========
-2020-03-30 22:27:46,185 INFO  com.nopcommerce.frontend.Order_Function - OS name = windows 10
-2020-03-30 22:27:47,541 INFO  com.nopcommerce.frontend.Order_Function - ---------- QUIT BROWSER SUCCESS ----------
+2020-03-31 12:04:18,546 INFO  com.nopcommerce.frontend.Login_Function - Pre-condition: Open Log in Page
+2020-03-31 12:04:23,732 INFO  com.nopcommerce.frontend.Login_Function - ========Start TC_01_Register_with_empty_data========
+2020-03-31 12:04:23,732 INFO  com.nopcommerce.frontend.Login_Function - VP. Login Page is opened
+2020-03-31 12:04:23,850 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:23,851 INFO  com.nopcommerce.frontend.Login_Function - Step 1: Click Login button with empty data
+2020-03-31 12:04:24,022 INFO  com.nopcommerce.frontend.Login_Function - VP. Error message show Please enter your email
+2020-03-31 12:04:24,117 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:24,117 INFO  com.nopcommerce.frontend.Login_Function - ========End TC_01_Register_with_empty_data========
+2020-03-31 12:04:24,122 INFO  com.nopcommerce.frontend.Login_Function - ========Start TC_02_Login_with_invalid_email========
+2020-03-31 12:04:24,122 INFO  com.nopcommerce.frontend.Login_Function - VP. Login Page is opened
+2020-03-31 12:04:24,177 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:24,177 INFO  com.nopcommerce.frontend.Login_Function - Step 1: Input invalid email then click Login
+2020-03-31 12:04:24,579 INFO  com.nopcommerce.frontend.Login_Function - VP. Error message show Wrong email
+2020-03-31 12:04:24,649 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:24,650 INFO  com.nopcommerce.frontend.Login_Function - ========End TC_02_Login_with_invalid_email========
+2020-03-31 12:04:24,651 INFO  com.nopcommerce.frontend.Login_Function - ========Start TC_03_Login_with_email_not_registered========
+2020-03-31 12:04:24,651 INFO  com.nopcommerce.frontend.Login_Function - VP. Login Page is opened
+2020-03-31 12:04:24,706 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:24,706 INFO  com.nopcommerce.frontend.Login_Function - Step 1: Input invalid email then click Login
+2020-03-31 12:04:25,758 INFO  com.nopcommerce.frontend.Login_Function - VP. Error message show Login was unsuccessful. Please correct the errors and try again. No customer account found
+2020-03-31 12:04:25,849 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:25,849 INFO  com.nopcommerce.frontend.Login_Function - ========End TC_03_Login_with_email_not_registered========
+2020-03-31 12:04:25,850 INFO  com.nopcommerce.frontend.Login_Function - ========Start TC_04_Login_with_valid_email_and_password_blank========
+2020-03-31 12:04:25,850 INFO  com.nopcommerce.frontend.Login_Function - VP. Login Page is opened
+2020-03-31 12:04:25,927 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:25,927 INFO  com.nopcommerce.frontend.Login_Function - Step 1: Input invalid email then click Login
+2020-03-31 12:04:27,589 INFO  com.nopcommerce.frontend.Login_Function - VP. Show Error message: Login was unsuccessful. Please correct the errors and try again. The credentials provided are incorrect
+2020-03-31 12:04:27,661 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:27,661 INFO  com.nopcommerce.frontend.Login_Function - ========End TC_04_Login_with_valid_email_and_password_blank========
+2020-03-31 12:04:27,662 INFO  com.nopcommerce.frontend.Login_Function - ========Start TC_05_Login_with_valid_email_and_wrong_password========
+2020-03-31 12:04:27,663 INFO  com.nopcommerce.frontend.Login_Function - VP. Login Page is opened
+2020-03-31 12:04:27,726 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:27,726 INFO  com.nopcommerce.frontend.Login_Function - Step 1: Input invalid email then click Login
+2020-03-31 12:04:29,600 INFO  com.nopcommerce.frontend.Login_Function - VP. Show Error message: Login was unsuccessful. Please correct the errors and try again. The credentials provided are incorrect
+2020-03-31 12:04:29,696 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:29,696 INFO  com.nopcommerce.frontend.Login_Function - ========End TC_05_Login_with_valid_email_and_wrong_password========
+2020-03-31 12:04:29,697 INFO  com.nopcommerce.frontend.Login_Function - ========Start TC_06_Login_with_valid_email_and_password========
+2020-03-31 12:04:29,697 INFO  com.nopcommerce.frontend.Login_Function - VP. Login Page is opened
+2020-03-31 12:04:29,771 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:29,771 INFO  com.nopcommerce.frontend.Login_Function - Step 1: Input valid email and password then click Login
+2020-03-31 12:04:31,971 INFO  com.nopcommerce.frontend.Login_Function - VP. Login successfully
+2020-03-31 12:04:32,060 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:32,150 INFO  com.nopcommerce.frontend.Login_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:32,150 INFO  com.nopcommerce.frontend.Login_Function - ========End TC_06_Login_with_valid_email_and_password========
+2020-03-31 12:04:32,151 INFO  com.nopcommerce.frontend.Login_Function - OS name = windows 10
+2020-03-31 12:04:33,385 INFO  com.nopcommerce.frontend.Login_Function - ---------- QUIT BROWSER SUCCESS ----------
+2020-03-31 12:04:40,566 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Register account
+2020-03-31 12:04:42,348 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Register Page open successfully
+2020-03-31 12:04:42,438 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:42,438 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Input valid info
+2020-03-31 12:04:42,438 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Click to Gender
+2020-03-31 12:04:42,532 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Select Date
+2020-03-31 12:04:42,713 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Select Month
+2020-03-31 12:04:42,851 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Select Years
+2020-03-31 12:04:43,003 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Input First Name: Khoa
+2020-03-31 12:04:43,169 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Input Last Name: Nguyen
+2020-03-31 12:04:43,343 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Input email: khoa.nguyen93037376@gmail.com
+2020-03-31 12:04:43,678 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Input Company: Nexcel
+2020-03-31 12:04:43,835 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Uncheck Checkbox Newsletter
+2020-03-31 12:04:43,943 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Input Password: 1234aaAA
+2020-03-31 12:04:44,095 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Input Password: 1234aaAA
+2020-03-31 12:04:44,243 INFO  com.nopcommerce.frontend.My_Account_Function - Pre-condition: Click Register button
+2020-03-31 12:04:46,801 INFO  com.nopcommerce.frontend.My_Account_Function - Verify register successfully message
+2020-03-31 12:04:46,887 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:46,888 INFO  com.nopcommerce.frontend.My_Account_Function - ========Start TC_01_Update_Customer_Info========
+2020-03-31 12:04:46,888 INFO  com.nopcommerce.frontend.My_Account_Function - Step 1: Navigate to My Account Page
+2020-03-31 12:04:48,482 INFO  com.nopcommerce.frontend.My_Account_Function - Step 2: Click to Customer Info link
+2020-03-31 12:04:49,070 INFO  com.nopcommerce.frontend.My_Account_Function - VP. My Account - Customer info Page open successfully
+2020-03-31 12:04:49,128 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:49,128 INFO  com.nopcommerce.frontend.My_Account_Function - Step 3: Update Customer Info
+2020-03-31 12:04:49,129 INFO  com.nopcommerce.frontend.My_Account_Function - Click to Gender: Female
+2020-03-31 12:04:49,229 INFO  com.nopcommerce.frontend.My_Account_Function - Select Date: 22
+2020-03-31 12:04:49,364 INFO  com.nopcommerce.frontend.My_Account_Function - Select Month: April
+2020-03-31 12:04:49,502 INFO  com.nopcommerce.frontend.My_Account_Function - Select Years: 1994
+2020-03-31 12:04:49,671 INFO  com.nopcommerce.frontend.My_Account_Function - Input First Name: Kingsley
+2020-03-31 12:04:49,881 INFO  com.nopcommerce.frontend.My_Account_Function - Input Last Name: Nguyen
+2020-03-31 12:04:50,052 INFO  com.nopcommerce.frontend.My_Account_Function - Input email: khoa.nguyen93037376@gmail.com
+2020-03-31 12:04:50,357 INFO  com.nopcommerce.frontend.My_Account_Function - Input Company: Bosch
+2020-03-31 12:04:50,531 INFO  com.nopcommerce.frontend.My_Account_Function - Click Save button
+2020-03-31 12:04:53,101 INFO  com.nopcommerce.frontend.My_Account_Function - Step 4: Verify Customer Info are updated successfully
+2020-03-31 12:04:53,101 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Gender updated successfully
+2020-03-31 12:04:53,196 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:53,196 INFO  com.nopcommerce.frontend.My_Account_Function - VP. FirstName updated successfully
+2020-03-31 12:04:53,247 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:53,247 INFO  com.nopcommerce.frontend.My_Account_Function - VP. LastName updated successfully
+2020-03-31 12:04:53,316 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:53,316 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Email updated successfully
+2020-03-31 12:04:53,373 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:53,373 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Company updated successfully
+2020-03-31 12:04:53,435 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:53,435 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Date Of BirthDay updated successfully
+2020-03-31 12:04:53,883 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:53,883 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Month Of BirthDay updated successfully
+2020-03-31 12:04:54,044 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:54,044 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Year Of BirthDay updated successfully
+2020-03-31 12:04:55,321 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:55,321 INFO  com.nopcommerce.frontend.My_Account_Function - ========End TC_01_Update_Customer_Info========
+2020-03-31 12:04:55,322 INFO  com.nopcommerce.frontend.My_Account_Function - ========Start TC_02_Add_new_address========
+2020-03-31 12:04:55,322 INFO  com.nopcommerce.frontend.My_Account_Function - Step 1: Navigate to My Account Page
+2020-03-31 12:04:55,932 INFO  com.nopcommerce.frontend.My_Account_Function - Step 1: Open Address page
+2020-03-31 12:04:56,525 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Address page open successfully
+2020-03-31 12:04:56,583 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:04:56,583 INFO  com.nopcommerce.frontend.My_Account_Function - Click Add new button
+2020-03-31 12:04:58,169 INFO  com.nopcommerce.frontend.My_Account_Function - Input First Name: Khoa
+2020-03-31 12:04:58,305 INFO  com.nopcommerce.frontend.My_Account_Function - Input Last Name: Nguyen
+2020-03-31 12:04:58,514 INFO  com.nopcommerce.frontend.My_Account_Function - Input email: khoa.nguyen93037376@gmail.com
+2020-03-31 12:04:58,874 INFO  com.nopcommerce.frontend.My_Account_Function - Input Company: Nexcel
+2020-03-31 12:04:59,012 INFO  com.nopcommerce.frontend.My_Account_Function - Select Country: United States
+2020-03-31 12:04:59,130 INFO  com.nopcommerce.frontend.My_Account_Function - Select State: Texas
+2020-03-31 12:04:59,799 INFO  com.nopcommerce.frontend.My_Account_Function - Input City: Dallas
+2020-03-31 12:04:59,971 INFO  com.nopcommerce.frontend.My_Account_Function - Input Address 1: 54 Tran Quang Co Tan Phu
+2020-03-31 12:05:00,290 INFO  com.nopcommerce.frontend.My_Account_Function - Input Address 2: Binh Thanh
+2020-03-31 12:05:00,482 INFO  com.nopcommerce.frontend.My_Account_Function - Input Zip: 640000
+2020-03-31 12:05:00,636 INFO  com.nopcommerce.frontend.My_Account_Function - Input Phone Number: 0938992805
+2020-03-31 12:05:00,809 INFO  com.nopcommerce.frontend.My_Account_Function - Input Fax number: 0338808365
+2020-03-31 12:05:01,465 INFO  com.nopcommerce.frontend.My_Account_Function - Click Save button
+2020-03-31 12:05:03,275 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify address updated successfully
+2020-03-31 12:05:03,275 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Name
+2020-03-31 12:05:03,373 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:03,373 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Email
+2020-03-31 12:05:03,476 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:03,476 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Phone
+2020-03-31 12:05:03,537 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:03,537 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Fax
+2020-03-31 12:05:03,591 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:03,591 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Company
+2020-03-31 12:05:03,655 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:03,655 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Address 1
+2020-03-31 12:05:03,723 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:03,723 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Address 2
+2020-03-31 12:05:03,786 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:03,786 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify City - State - Zip
+2020-03-31 12:05:03,847 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:03,847 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Country
+2020-03-31 12:05:03,905 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:04,340 INFO  com.nopcommerce.frontend.My_Account_Function - ========End TC_02_Add_new_address========
+2020-03-31 12:05:04,344 INFO  com.nopcommerce.frontend.My_Account_Function - ========Start TC_03_Change_Password========
+2020-03-31 12:05:04,344 INFO  com.nopcommerce.frontend.My_Account_Function - Step 1: Navigate to My Account Page
+2020-03-31 12:05:05,017 INFO  com.nopcommerce.frontend.My_Account_Function - Step 1: Open Change password page
+2020-03-31 12:05:05,633 INFO  com.nopcommerce.frontend.My_Account_Function - Step 2: Update new password
+2020-03-31 12:05:05,634 INFO  com.nopcommerce.frontend.My_Account_Function - Input old password
+2020-03-31 12:05:05,806 INFO  com.nopcommerce.frontend.My_Account_Function - Input new password
+2020-03-31 12:05:05,944 INFO  com.nopcommerce.frontend.My_Account_Function - Input confirm new password
+2020-03-31 12:05:06,082 INFO  com.nopcommerce.frontend.My_Account_Function - Click Change password Button
+2020-03-31 12:05:06,869 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Show message update password successfully
+2020-03-31 12:05:06,941 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:06,942 INFO  com.nopcommerce.frontend.My_Account_Function - Step 3: Log out and Re-Login with new password
+2020-03-31 12:05:06,942 INFO  com.nopcommerce.frontend.My_Account_Function - Log out
+2020-03-31 12:05:07,958 INFO  com.nopcommerce.frontend.My_Account_Function - Re-Login with new password
+2020-03-31 12:05:09,896 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Re-Login with new password successfully
+2020-03-31 12:05:09,944 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:09,984 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:09,984 INFO  com.nopcommerce.frontend.My_Account_Function - ========End TC_03_Change_Password========
+2020-03-31 12:05:09,985 INFO  com.nopcommerce.frontend.My_Account_Function - ========Start TC_04_Add_Product_review========
+2020-03-31 12:05:09,986 INFO  com.nopcommerce.frontend.My_Account_Function - Step 1: Open Home page
+2020-03-31 12:05:10,573 INFO  com.nopcommerce.frontend.My_Account_Function - Step 2: Click on a product
+2020-03-31 12:05:11,989 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Verify Product details page open
+2020-03-31 12:05:12,096 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:12,096 INFO  com.nopcommerce.frontend.My_Account_Function - Step 3: Click on Add review
+2020-03-31 12:05:13,010 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Open Product Reviews Page
+2020-03-31 12:05:13,065 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:13,066 INFO  com.nopcommerce.frontend.My_Account_Function - Step 4: Fill in review info
+2020-03-31 12:05:13,066 INFO  com.nopcommerce.frontend.My_Account_Function - Input review title
+2020-03-31 12:05:13,278 INFO  com.nopcommerce.frontend.My_Account_Function - Input review text
+2020-03-31 12:05:13,586 INFO  com.nopcommerce.frontend.My_Account_Function - Click to Rating
+2020-03-31 12:05:13,674 INFO  com.nopcommerce.frontend.My_Account_Function - Click to Submit Review
+2020-03-31 12:05:14,621 INFO  com.nopcommerce.frontend.My_Account_Function - VP. Product review added successfully
+2020-03-31 12:05:14,683 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:14,683 INFO  com.nopcommerce.frontend.My_Account_Function - Step 5: Verify review show in My Account - Product Review
+2020-03-31 12:05:14,683 INFO  com.nopcommerce.frontend.My_Account_Function - Open My Account
+2020-03-31 12:05:15,292 INFO  com.nopcommerce.frontend.My_Account_Function - Open My Product Review
+2020-03-31 12:05:15,879 INFO  com.nopcommerce.frontend.My_Account_Function - VP. My Product review is opened
+2020-03-31 12:05:16,017 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:16,017 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Review Title
+2020-03-31 12:05:16,111 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:16,111 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Review Text
+2020-03-31 12:05:16,205 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:16,205 INFO  com.nopcommerce.frontend.My_Account_Function - VP: Verify Review Info contains product name: Apple MacBook Pro 13-inch
+2020-03-31 12:05:16,299 INFO  com.nopcommerce.frontend.My_Account_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:16,299 INFO  com.nopcommerce.frontend.My_Account_Function - ========Start TC_04_Add_Product_review========
+2020-03-31 12:05:16,299 INFO  com.nopcommerce.frontend.My_Account_Function - OS name = windows 10
+2020-03-31 12:05:17,551 INFO  com.nopcommerce.frontend.My_Account_Function - ---------- QUIT BROWSER SUCCESS ----------
+2020-03-31 12:05:23,163 INFO  com.nopcommerce.frontend.Order_Function - Pre-condition: Login successfully
+2020-03-31 12:05:28,742 INFO  com.nopcommerce.frontend.Order_Function - Pre-condition: VP. Login successfully
+2020-03-31 12:05:28,814 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:28,876 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:28,877 INFO  com.nopcommerce.frontend.Order_Function - ========Start TC_01_Add_Product_To_Cart========
+2020-03-31 12:05:28,877 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Computers > Desktops page
+2020-03-31 12:05:29,701 INFO  com.nopcommerce.frontend.Order_Function - Pre-condition: VP. Desktops Page is opened
+2020-03-31 12:05:29,799 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:29,799 INFO  com.nopcommerce.frontend.Order_Function - Click on Build your own computer
+2020-03-31 12:05:30,996 INFO  com.nopcommerce.frontend.Order_Function - VP. Build your own computer is opened
+2020-03-31 12:05:31,059 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:31,059 INFO  com.nopcommerce.frontend.Order_Function - Select option for computer
+2020-03-31 12:05:31,059 INFO  com.nopcommerce.frontend.Order_Function - Select Processor
+2020-03-31 12:05:31,137 INFO  com.nopcommerce.frontend.Order_Function - Select RAM
+2020-03-31 12:05:31,288 INFO  com.nopcommerce.frontend.Order_Function - Select HDD
+2020-03-31 12:05:31,453 INFO  com.nopcommerce.frontend.Order_Function - Select OS
+2020-03-31 12:05:31,553 INFO  com.nopcommerce.frontend.Order_Function - Select Software
+2020-03-31 12:05:31,871 INFO  com.nopcommerce.frontend.Order_Function - Click button Add to Cart
+2020-03-31 12:05:31,988 INFO  com.nopcommerce.frontend.Order_Function - VP.Show message product has been added to shopping cart successfully
+2020-03-31 12:05:32,470 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:32,725 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify product has been added to shopping cart
+2020-03-31 12:05:32,986 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify quatity product has been added to shopping cart
+2020-03-31 12:05:33,598 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:33,662 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:33,732 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:33,790 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:33,850 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:33,935 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:34,021 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:34,078 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:34,153 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:34,214 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:34,274 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:34,274 INFO  com.nopcommerce.frontend.Order_Function - ========End TC_01_Add_Product_To_Cart========
+2020-03-31 12:05:34,276 INFO  com.nopcommerce.frontend.Order_Function - ========Start TC_02_Edit_Product_In_Cart========
+2020-03-31 12:05:34,276 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Cart
+2020-03-31 12:05:35,192 INFO  com.nopcommerce.frontend.Order_Function - Click on Edit Product
+2020-03-31 12:05:36,313 INFO  com.nopcommerce.frontend.Order_Function - VP. Build your own computer is opened
+2020-03-31 12:05:36,460 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:36,460 INFO  com.nopcommerce.frontend.Order_Function - Select option for computer
+2020-03-31 12:05:36,461 INFO  com.nopcommerce.frontend.Order_Function - Select Processor
+2020-03-31 12:05:36,824 INFO  com.nopcommerce.frontend.Order_Function - Select RAM
+2020-03-31 12:05:37,080 INFO  com.nopcommerce.frontend.Order_Function - Select HDD
+2020-03-31 12:05:37,252 INFO  com.nopcommerce.frontend.Order_Function - Select OS
+2020-03-31 12:05:37,480 INFO  com.nopcommerce.frontend.Order_Function - Select Software
+2020-03-31 12:05:38,249 INFO  com.nopcommerce.frontend.Order_Function - Input quantity
+2020-03-31 12:05:38,481 INFO  com.nopcommerce.frontend.Order_Function - Click to Update
+2020-03-31 12:05:38,660 INFO  com.nopcommerce.frontend.Order_Function - VP.Show message product has been added to shopping cart successfully
+2020-03-31 12:05:39,079 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:39,197 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify product has been updated to shopping cart
+2020-03-31 12:05:39,262 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify quatity product has been updated to shopping cart
+2020-03-31 12:05:40,446 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,505 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,562 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,606 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,649 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,689 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,730 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,766 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,815 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,868 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,930 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:40,930 INFO  com.nopcommerce.frontend.Order_Function - ========End TC_02_Edit_Product_In_Cart========
+2020-03-31 12:05:40,937 INFO  com.nopcommerce.frontend.Order_Function - ========Start TC_03_Remove_Product_In_Cart========
+2020-03-31 12:05:40,937 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Cart
+2020-03-31 12:05:42,037 INFO  com.nopcommerce.frontend.Order_Function - Check on checkbox remove Product
+2020-03-31 12:05:42,152 INFO  com.nopcommerce.frontend.Order_Function - Click to Update Shopping Cart
+2020-03-31 12:05:42,800 INFO  com.nopcommerce.frontend.Order_Function - VP. Shopping Cart is empty
+2020-03-31 12:05:42,859 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:42,859 INFO  com.nopcommerce.frontend.Order_Function - VP. Mini Shopping Cart is empty
+2020-03-31 12:05:42,978 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:42,979 INFO  com.nopcommerce.frontend.Order_Function - ========End TC_03_Remove_Product_In_Cart========
+2020-03-31 12:05:42,981 INFO  com.nopcommerce.frontend.Order_Function - ========Start TC_05_Order_And_CheckOut========
+2020-03-31 12:05:42,981 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Computers > Desktops page
+2020-03-31 12:05:44,577 INFO  com.nopcommerce.frontend.Order_Function - VP. Notebooks Page is opened
+2020-03-31 12:05:44,634 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:44,634 INFO  com.nopcommerce.frontend.Order_Function - Click on product: Apple MacBook Pro 13-inch
+2020-03-31 12:05:45,607 INFO  com.nopcommerce.frontend.Order_Function - VP. Apple MacBook Pro 13-inch is opened
+2020-03-31 12:05:45,678 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:45,678 INFO  com.nopcommerce.frontend.Order_Function - Input 2 quantity
+2020-03-31 12:05:45,802 INFO  com.nopcommerce.frontend.Order_Function - Click button Add to Cart
+2020-03-31 12:05:45,884 INFO  com.nopcommerce.frontend.Order_Function - VP.Show message product has been added to shopping cart successfully
+2020-03-31 12:05:46,291 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:46,374 INFO  com.nopcommerce.frontend.Order_Function - Navigate to Cart
+2020-03-31 12:05:48,330 INFO  com.nopcommerce.frontend.Order_Function - Input info before Checkout
+2020-03-31 12:05:48,330 INFO  com.nopcommerce.frontend.Order_Function - Select Gift Wrapping?
+2020-03-31 12:05:48,410 INFO  com.nopcommerce.frontend.Order_Function - Select Country
+2020-03-31 12:05:48,521 INFO  com.nopcommerce.frontend.Order_Function - Input Zip Code
+2020-03-31 12:05:48,681 INFO  com.nopcommerce.frontend.Order_Function - Check on checkbox Accept Term
+2020-03-31 12:05:48,785 INFO  com.nopcommerce.frontend.Order_Function - Click on Checkout Button
+2020-03-31 12:05:50,271 INFO  com.nopcommerce.frontend.Order_Function - Open Checkout Page
+2020-03-31 12:05:50,271 INFO  com.nopcommerce.frontend.Order_Function - VP. Checkout Page is opened
+2020-03-31 12:05:50,357 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:50,358 INFO  com.nopcommerce.frontend.Order_Function - Input Billing Address info
+2020-03-31 12:05:52,920 INFO  com.nopcommerce.frontend.Order_Function - Billing Method Page > Click To Continue
+2020-03-31 12:05:53,017 INFO  com.nopcommerce.frontend.Order_Function - Input Shipping Address info
+2020-03-31 12:05:56,042 INFO  com.nopcommerce.frontend.Order_Function - Shipping Address Page > Click To Continue
+2020-03-31 12:05:56,133 INFO  com.nopcommerce.frontend.Order_Function - Input Shipping Method info
+2020-03-31 12:05:56,599 INFO  com.nopcommerce.frontend.Order_Function - Shipping Method Page > Click To Continue
+2020-03-31 12:05:56,686 INFO  com.nopcommerce.frontend.Order_Function - Input Payment Method
+2020-03-31 12:05:57,124 INFO  com.nopcommerce.frontend.Order_Function - Payment Method Page > Click To Continue
+2020-03-31 12:05:57,222 INFO  com.nopcommerce.frontend.Order_Function - Payment Info Page > Click To Continue
+2020-03-31 12:05:57,825 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Confirm Order
+2020-03-31 12:05:57,826 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Billing Address
+2020-03-31 12:05:58,273 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,325 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,378 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,433 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,496 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,551 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,551 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Shipping Address
+2020-03-31 12:05:58,614 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,668 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,749 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,846 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,926 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,996 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:58,997 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Payment
+2020-03-31 12:05:59,066 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,066 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Shipping
+2020-03-31 12:05:59,140 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,141 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Shopping Cart info
+2020-03-31 12:05:59,211 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,275 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,347 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,347 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Shopping Cart - Total info
+2020-03-31 12:05:59,401 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,464 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,536 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,582 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,647 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:05:59,647 INFO  com.nopcommerce.frontend.Order_Function - Click to Confirm button
+2020-03-31 12:05:59,736 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify success message display
+2020-03-31 12:06:00,972 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:01,036 INFO  com.nopcommerce.frontend.Order_Function - Order number: 3787
+2020-03-31 12:06:01,036 INFO  com.nopcommerce.frontend.Order_Function - Navigate to My Account > Order. Verify order info
+2020-03-31 12:06:02,212 INFO  com.nopcommerce.frontend.Order_Function - VP. My Account - Orders Page open
+2020-03-31 12:06:02,276 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:02,276 INFO  com.nopcommerce.frontend.Order_Function - VP. Order Number is displayed in Order List
+2020-03-31 12:06:02,312 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:02,313 INFO  com.nopcommerce.frontend.Order_Function - Click To Order Details
+2020-03-31 12:06:02,968 INFO  com.nopcommerce.frontend.Order_Function - VP. Orders Information Page is opened
+2020-03-31 12:06:03,039 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,039 INFO  com.nopcommerce.frontend.Order_Function - VP. Order Number is displayed in Order List
+2020-03-31 12:06:03,067 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,067 INFO  com.nopcommerce.frontend.Order_Function - VP. Verify Product info
+2020-03-31 12:06:03,128 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,188 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,248 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,248 INFO  com.nopcommerce.frontend.Order_Function - VP. Orders Information Page is opened
+2020-03-31 12:06:03,311 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,385 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,460 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,518 INFO  com.nopcommerce.frontend.Order_Function -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:03,518 INFO  com.nopcommerce.frontend.Order_Function - ========End TC_05_Order_And_CheckOut========
+2020-03-31 12:06:03,519 INFO  com.nopcommerce.frontend.Order_Function - OS name = windows 10
+2020-03-31 12:06:04,625 INFO  com.nopcommerce.frontend.Order_Function - ---------- QUIT BROWSER SUCCESS ----------
+2020-03-31 12:06:16,532 INFO  com.nopcommerce.frontend.Register_Account - ========Start TC_01_Register_with_empty_data========
+2020-03-31 12:06:16,532 INFO  com.nopcommerce.frontend.Register_Account - VP. Register Page is opened
+2020-03-31 12:06:16,596 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:16,596 INFO  com.nopcommerce.frontend.Register_Account - Step 1: Click Register button with empty data
+2020-03-31 12:06:16,737 INFO  com.nopcommerce.frontend.Register_Account - Verify First name error message
+2020-03-31 12:06:16,796 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:16,796 INFO  com.nopcommerce.frontend.Register_Account - Verify Last name error message
+2020-03-31 12:06:16,853 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:16,853 INFO  com.nopcommerce.frontend.Register_Account - Verify Email error message
+2020-03-31 12:06:16,907 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:16,907 INFO  com.nopcommerce.frontend.Register_Account - Verify Last name error message
+2020-03-31 12:06:16,966 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:16,967 INFO  com.nopcommerce.frontend.Register_Account - Verify Last name error message
+2020-03-31 12:06:17,019 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:17,019 INFO  com.nopcommerce.frontend.Register_Account - ========End TC_01_Register_with_empty_data========
+2020-03-31 12:06:17,020 INFO  com.nopcommerce.frontend.Register_Account - ========Start TC_02_Register_with_invalid_email========
+2020-03-31 12:06:17,020 INFO  com.nopcommerce.frontend.Register_Account - VP. Register Page is opened
+2020-03-31 12:06:17,057 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:17,057 INFO  com.nopcommerce.frontend.Register_Account - Step 1: Input invalid email
+2020-03-31 12:06:17,246 INFO  com.nopcommerce.frontend.Register_Account - Step 2: Click Register button
+2020-03-31 12:06:17,325 INFO  com.nopcommerce.frontend.Register_Account - Verify Email error message show Wrong email
+2020-03-31 12:06:17,377 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:17,378 INFO  com.nopcommerce.frontend.Register_Account - ========End TC_02_Register_with_invalid_email========
+2020-03-31 12:06:17,378 INFO  com.nopcommerce.frontend.Register_Account - ========Start TC_03_Register_with_existing_email========
+2020-03-31 12:06:17,379 INFO  com.nopcommerce.frontend.Register_Account - VP. Register Page is opened
+2020-03-31 12:06:17,416 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:17,417 INFO  com.nopcommerce.frontend.Register_Account - Step 1: Input existing email
+2020-03-31 12:06:17,797 INFO  com.nopcommerce.frontend.Register_Account - Input First Name
+2020-03-31 12:06:17,930 INFO  com.nopcommerce.frontend.Register_Account - Input Last Name
+2020-03-31 12:06:18,085 INFO  com.nopcommerce.frontend.Register_Account - Input Password
+2020-03-31 12:06:18,250 INFO  com.nopcommerce.frontend.Register_Account - Input Password
+2020-03-31 12:06:18,415 INFO  com.nopcommerce.frontend.Register_Account - Step 2: Click Register button
+2020-03-31 12:06:19,824 INFO  com.nopcommerce.frontend.Register_Account - Verify Email error message show Wrong email
+2020-03-31 12:06:19,890 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:19,890 INFO  com.nopcommerce.frontend.Register_Account - ========End TC_03_Register_with_existing_email========
+2020-03-31 12:06:19,891 INFO  com.nopcommerce.frontend.Register_Account - ========Start TC_04_Register_with_password_less_than_6_character========
+2020-03-31 12:06:19,891 INFO  com.nopcommerce.frontend.Register_Account - VP. Register Page is opened
+2020-03-31 12:06:19,941 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:19,942 INFO  com.nopcommerce.frontend.Register_Account - Step 1: Input password less than 6 character
+2020-03-31 12:06:20,093 INFO  com.nopcommerce.frontend.Register_Account - Step 2: Click Register button
+2020-03-31 12:06:20,207 INFO  com.nopcommerce.frontend.Register_Account - Verify password error message show Password must meet the following rules: must have at least 6 characters
+2020-03-31 12:06:20,292 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:20,292 INFO  com.nopcommerce.frontend.Register_Account - ========End TC_04_Register_with_password_less_than_6_character========
+2020-03-31 12:06:20,293 INFO  com.nopcommerce.frontend.Register_Account - ========Start TC_05_Register_with_confirmpassword_not_same_password========
+2020-03-31 12:06:20,293 INFO  com.nopcommerce.frontend.Register_Account - VP. Register Page is opened
+2020-03-31 12:06:20,331 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:20,331 INFO  com.nopcommerce.frontend.Register_Account - Step 1: Input password and confirmation password do not match
+2020-03-31 12:06:20,614 INFO  com.nopcommerce.frontend.Register_Account - Step 2: Click Register button
+2020-03-31 12:06:20,677 INFO  com.nopcommerce.frontend.Register_Account - Verify password error message show The password and confirmation password do not match.
+2020-03-31 12:06:20,756 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:20,756 INFO  com.nopcommerce.frontend.Register_Account - ========End TC_05_Register_with_confirmpassword_not_same_password========
+2020-03-31 12:06:20,757 INFO  com.nopcommerce.frontend.Register_Account - ========Start TC_06_Register_with_valid_info========
+2020-03-31 12:06:20,757 INFO  com.nopcommerce.frontend.Register_Account - VP. Register Page is opened
+2020-03-31 12:06:20,814 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:20,815 INFO  com.nopcommerce.frontend.Register_Account - Step 1: Input valid info
+2020-03-31 12:06:20,815 INFO  com.nopcommerce.frontend.Register_Account - Click to Gender
+2020-03-31 12:06:20,911 INFO  com.nopcommerce.frontend.Register_Account - Select Date
+2020-03-31 12:06:21,023 INFO  com.nopcommerce.frontend.Register_Account - Select Month
+2020-03-31 12:06:21,135 INFO  com.nopcommerce.frontend.Register_Account - Select Years
+2020-03-31 12:06:21,273 INFO  com.nopcommerce.frontend.Register_Account - Input First Name: Khoa
+2020-03-31 12:06:21,460 INFO  com.nopcommerce.frontend.Register_Account - Input Last Name: Nguyen
+2020-03-31 12:06:21,633 INFO  com.nopcommerce.frontend.Register_Account - Input email: khoa.nguyen35069020@gmail.com
+2020-03-31 12:06:21,890 INFO  com.nopcommerce.frontend.Register_Account - Input Company: Nexcel
+2020-03-31 12:06:22,024 INFO  com.nopcommerce.frontend.Register_Account - Uncheck Checkbox Newsletter
+2020-03-31 12:06:22,122 INFO  com.nopcommerce.frontend.Register_Account - Input Password: 1234aaAA
+2020-03-31 12:06:22,275 INFO  com.nopcommerce.frontend.Register_Account - Input Password: 1234aaAA
+2020-03-31 12:06:22,414 INFO  com.nopcommerce.frontend.Register_Account - Step 2: Click Register button
+2020-03-31 12:06:24,463 INFO  com.nopcommerce.frontend.Register_Account - Verify register successfully message
+2020-03-31 12:06:24,521 INFO  com.nopcommerce.frontend.Register_Account -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:24,521 INFO  com.nopcommerce.frontend.Register_Account - ========End TC_06_Register_with_valid_info========
+2020-03-31 12:06:24,522 INFO  com.nopcommerce.frontend.Register_Account - OS name = windows 10
+2020-03-31 12:06:25,609 INFO  com.nopcommerce.frontend.Register_Account - ---------- QUIT BROWSER SUCCESS ----------
+2020-03-31 12:06:29,350 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Pre-condition: Login successfully
+2020-03-31 12:06:35,861 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Pre-condition: VP. Login successfully
+2020-03-31 12:06:35,924 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:35,972 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:35,972 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Pre-condition: Open Search Page
+2020-03-31 12:06:37,395 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Pre-condition: VP. Search Page is opened
+2020-03-31 12:06:37,463 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:37,464 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_01_Search_with_empty_data========
+2020-03-31 12:06:37,464 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Click button Search with empty data
+2020-03-31 12:06:37,465 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Click Search button
+2020-03-31 12:06:38,097 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show error message
+2020-03-31 12:06:38,157 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:38,157 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_01_Search_with_empty_data========
+2020-03-31 12:06:38,158 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_02_Search_with_data_not_existing========
+2020-03-31 12:06:38,158 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input data not existing
+2020-03-31 12:06:38,352 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Click Search Button
+2020-03-31 12:06:39,054 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show error message
+2020-03-31 12:06:39,104 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:39,104 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_02_Search_with_data_not_existing========
+2020-03-31 12:06:39,105 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_03_Search_with_relative_product_name========
+2020-03-31 12:06:39,105 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:39,233 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Click Search Button
+2020-03-31 12:06:40,773 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 2 product
+2020-03-31 12:06:40,792 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:40,792 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 2 product contains Lenovo
+2020-03-31 12:06:40,841 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:40,841 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show product Lenovo IdeaCentre 600 All-in-One PC
+2020-03-31 12:06:40,867 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:40,867 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show product Lenovo Thinkpad X1 Carbon Laptop
+2020-03-31 12:06:40,892 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:40,892 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_03_Search_with_relative_product_name========
+2020-03-31 12:06:40,893 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_04_Search_with_absolute_product_name========
+2020-03-31 12:06:40,893 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:41,113 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Click Search Button
+2020-03-31 12:06:42,662 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 1 product
+2020-03-31 12:06:42,684 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:42,684 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 1 product contains Thinkpad X1 Carbon
+2020-03-31 12:06:42,718 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:42,718 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show product Lenovo Thinkpad X1 Carbon Laptop
+2020-03-31 12:06:42,749 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:42,749 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_04_Search_with_absolute_product_name========
+2020-03-31 12:06:42,750 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_05_Advance_Search_with_Parent_Catlogies========
+2020-03-31 12:06:42,750 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:42,935 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Check Advance Search Checkbox
+2020-03-31 12:06:43,038 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 3: Select Catalogies dropdownlist
+2020-03-31 12:06:43,148 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 4: Click Search Button
+2020-03-31 12:06:43,850 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show error message
+2020-03-31 12:06:43,907 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:43,908 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_05_Advance_Search_with_Parent_Catlogies========
+2020-03-31 12:06:43,908 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_06_Advance_Search_with_Sub_Catalogies========
+2020-03-31 12:06:43,908 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:44,099 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Check Advance Search Checkbox
+2020-03-31 12:06:44,148 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 3: Select Catalogies dropdownlist
+2020-03-31 12:06:44,218 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 5: Check on checkbox Automatically search sub categories
+2020-03-31 12:06:44,316 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 6: Click Search Button
+2020-03-31 12:06:44,955 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 1 product
+2020-03-31 12:06:44,971 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:44,971 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 1 product contains Apple MacBook Pro
+2020-03-31 12:06:45,006 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:45,006 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show product Apple MacBook Pro 13-inch
+2020-03-31 12:06:45,048 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:45,049 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_06_Advance_Search_with_Sub_Catalogies========
+2020-03-31 12:06:45,049 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_07_Advance_Search_with_Sub_Catalogies_Wrong_Manufacturer========
+2020-03-31 12:06:45,049 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:45,256 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Check Advance Search Checkbox
+2020-03-31 12:06:45,300 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 3: Select Catalogies dropdownlist
+2020-03-31 12:06:45,369 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 5: Check on checkbox Automatically search sub categories
+2020-03-31 12:06:45,413 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 6: Select Manufacturer dropdownlist
+2020-03-31 12:06:45,528 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 7: Click Search Button
+2020-03-31 12:06:47,033 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show error message
+2020-03-31 12:06:47,086 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:47,086 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_07_Advance_Search_with_Sub_Catalogies_Wrong_Manufacturer========
+2020-03-31 12:06:47,087 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_08_Advance_Search_with_Sub_Catalogies_Right_Manufacturer========
+2020-03-31 12:06:47,087 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:47,287 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Check Advance Search Checkbox
+2020-03-31 12:06:47,333 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 3: Select Catalogies dropdownlist
+2020-03-31 12:06:47,405 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 5: Check on checkbox Automatically search sub categories
+2020-03-31 12:06:47,463 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 6: Select Manufacturer dropdownlist
+2020-03-31 12:06:47,596 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 7: Click Search Button
+2020-03-31 12:06:48,267 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 1 product
+2020-03-31 12:06:48,280 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:48,280 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 1 product contains Apple MacBook Pro
+2020-03-31 12:06:48,306 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:48,306 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show product Apple MacBook Pro 13-inch
+2020-03-31 12:06:48,331 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:48,331 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_08_Advance_Search_with_Sub_Catalogies_Right_Manufacturer========
+2020-03-31 12:06:48,332 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_09_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_In_Range========
+2020-03-31 12:06:48,332 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:48,528 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Check Advance Search Checkbox
+2020-03-31 12:06:48,571 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 3: Select Catalogies dropdownlist
+2020-03-31 12:06:48,640 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 5: Check on checkbox Automatically search sub categories
+2020-03-31 12:06:48,692 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 6: Select Manufacturer dropdownlist
+2020-03-31 12:06:48,783 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 7: Input Price
+2020-03-31 12:06:49,036 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 7: Click Search Button
+2020-03-31 12:06:49,797 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 1 product
+2020-03-31 12:06:49,811 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:49,812 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show 1 product contains Apple MacBook Pro
+2020-03-31 12:06:49,840 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:49,840 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show product Apple MacBook Pro 13-inch
+2020-03-31 12:06:49,869 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:49,869 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_09_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_In_Range========
+2020-03-31 12:06:49,870 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_10_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Less_Than_Range========
+2020-03-31 12:06:49,870 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:50,115 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Check Advance Search Checkbox
+2020-03-31 12:06:50,174 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 3: Select Catalogies dropdownlist
+2020-03-31 12:06:50,241 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 5: Check on checkbox Automatically search sub categories
+2020-03-31 12:06:50,284 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 6: Select Manufacturer dropdownlist
+2020-03-31 12:06:50,352 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 7: Input Price
+2020-03-31 12:06:50,596 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 8: Click Search Button
+2020-03-31 12:06:52,098 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show error message
+2020-03-31 12:06:52,152 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:52,152 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_10_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Less_Than_Range========
+2020-03-31 12:06:52,153 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========Start TC_11_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Greater_Than_Range========
+2020-03-31 12:06:52,153 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 1: Input product name
+2020-03-31 12:06:52,361 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 2: Check Advance Search Checkbox
+2020-03-31 12:06:52,416 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 3: Select Catalogies dropdownlist
+2020-03-31 12:06:52,504 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 5: Check on checkbox Automatically search sub categories
+2020-03-31 12:06:52,553 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 6: Select Manufacturer dropdownlist
+2020-03-31 12:06:52,630 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 7: Input Price
+2020-03-31 12:06:52,879 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - Step 8: Click Search Button
+2020-03-31 12:06:53,496 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - VP. Show error message
+2020-03-31 12:06:53,549 INFO  com.nopcommerce.frontend.Search_AdvanceSearch -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:06:53,549 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ========End TC_11_Advance_Search_with_Sub_Catalogies_Right_Manufacturer_Price_Greater_Than_Range========
+2020-03-31 12:06:53,549 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - OS name = windows 10
+2020-03-31 12:06:54,696 INFO  com.nopcommerce.frontend.Search_AdvanceSearch - ---------- QUIT BROWSER SUCCESS ----------
+2020-03-31 12:06:58,473 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Pre-condition: Login successfully
+2020-03-31 12:07:05,582 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Pre-condition: VP. Login successfully
+2020-03-31 12:07:05,639 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:05,687 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:05,687 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Pre-condition: Open Computers > Notebooks Page
+2020-03-31 12:07:07,539 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Pre-condition: VP. Notebooks Page is opened
+2020-03-31 12:07:07,614 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:07,615 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========Start TC_01_Sort_Name_A_To_Z========
+2020-03-31 12:07:07,616 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Step 1: Select Sort by name A to Z
+2020-03-31 12:07:08,631 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Products are sorted by name A to Z
+2020-03-31 12:07:08,825 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:08,825 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========End TC_01_Sort_Name_A_To_Z========
+2020-03-31 12:07:08,826 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========Start TC_02_Sort_Name_Z_To_A========
+2020-03-31 12:07:08,826 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Step 1: Select Sort by name Z to A
+2020-03-31 12:07:10,354 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Products are sorted by name Z to A
+2020-03-31 12:07:10,531 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:10,531 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========End TC_02_Sort_Name_Z_To_A========
+2020-03-31 12:07:10,532 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========Start TC_03_Sort_Price_Low_to_High========
+2020-03-31 12:07:10,532 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Step 1: Select Sort by Price: Low to High
+2020-03-31 12:07:11,438 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Products are sorted by Price: Low to High
+2020-03-31 12:07:11,614 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:11,614 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========End TC_03_Sort_Price_Low_to_High========
+2020-03-31 12:07:11,615 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========Start TC_04_Sort_Price_High_to_Low========
+2020-03-31 12:07:11,615 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Step 1: Select Sort by Price High to Low
+2020-03-31 12:07:12,498 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Products are sorted by Price High to Low
+2020-03-31 12:07:12,655 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:12,655 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========End TC_04_Sort_Price_High_to_Low========
+2020-03-31 12:07:12,656 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========Start TC_05_Verify_Display_3_product_per_page========
+2020-03-31 12:07:12,656 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Step 1: Select display 3 product per page
+2020-03-31 12:07:13,917 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Datagrid are displayed 3 product per page
+2020-03-31 12:07:13,952 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:13,952 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Next icon appear when stay at page 1
+2020-03-31 12:07:14,082 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:19,138 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:19,139 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Previous icon appear when stay at page 2
+2020-03-31 12:07:20,166 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:25,184 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:25,185 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========End TC_05_Verify_Display_3_product_per_page========
+2020-03-31 12:07:25,187 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========Start TC_06_Verify_Display_6_product_per_page========
+2020-03-31 12:07:25,187 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Step 1: Select display 6 product per page
+2020-03-31 12:07:26,705 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Datagrid are displayed less than 6 product per page
+2020-03-31 12:07:26,742 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:26,742 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Paging not displayed
+2020-03-31 12:07:31,814 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:31,814 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========End TC_06_Verify_Display_6_product_per_page========
+2020-03-31 12:07:31,816 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========Start TC_07_Verify_Display_9_product_per_page========
+2020-03-31 12:07:31,816 INFO  com.nopcommerce.frontend.Sort_Display_Paging - Step 1: Select display 9 product per page
+2020-03-31 12:07:32,772 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Datagrid are displayed less than 9 product per page
+2020-03-31 12:07:32,811 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:32,811 INFO  com.nopcommerce.frontend.Sort_Display_Paging - VP. Paging not displayed
+2020-03-31 12:07:37,867 INFO  com.nopcommerce.frontend.Sort_Display_Paging -  -------------------------- PASSED -------------------------- 
+2020-03-31 12:07:37,867 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ========End TC_07_Verify_Display_9_product_per_page========
+2020-03-31 12:07:37,868 INFO  com.nopcommerce.frontend.Sort_Display_Paging - OS name = windows 10
+2020-03-31 12:07:39,026 INFO  com.nopcommerce.frontend.Sort_Display_Paging - ---------- QUIT BROWSER SUCCESS ----------
